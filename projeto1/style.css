@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+}
+
+.main{
+	text-align: center;
+}
+
+form{
+	max-width: 500px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+form input{
+	padding: 10px;
+	margin-bottom: 1rem;
+}
