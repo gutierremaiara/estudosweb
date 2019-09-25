@@ -1,0 +1,23 @@
+html, body, figure{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+	background-color: gray;
+}
+
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.slider .slide{
+	text-align: center;
+	display: none;
+}
+
+.slider .slide.ativo{
+	display: block;
+}
