@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Controle de Gastos</title>
+	<link rel="stylesheet" href="https://unpkg.com/sakura.css@1.0.0/css/sakura.css">
+</head>
+<body>
+	<header>
+		<h1>Controle de Gastos</h1>
+		
+		<form id="formulario">
+			<input type="text" id="titulo" placeholder="Titulo">
+			<input type="number" id="valor" step="0.1" placeholder="Valor">
+			<button type="submit">Inserir</button>
+		</form>
+		<hr>
+	</header>
+	<table>
+		<thead>
+			<tr>
+				<td>Titulo</td>
+				<td>Valor</td>
+			</tr>
+		</thead>
+		<tbody id="listagem">
+		
+		</tbody>
+	</table>
+
+
+<script src="./script.js"></script>	
+</body>
+</html>
